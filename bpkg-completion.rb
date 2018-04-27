@@ -13,10 +13,10 @@ class BpkgCompletion < Formula
   end
 
   def caveats; <<~EOT
-      # after installation, you need to reboot your PC.
-      # or, just do:
-      $ source ~/.bash_profile
-      Restart your terminal
+      after installation, you need to reboot your PC.
+      or, just do:
+        $ source ~/.bash_profile
+        Restart your terminal
   EOT
   end
     
