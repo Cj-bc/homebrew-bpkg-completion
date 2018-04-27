@@ -1,4 +1,4 @@
-class Bpkgcompletion < Formula
+class BpkgCompletion < Formula
   version = "0.1.0"
   homepage "https://github.com/Cj-bc/bpkg-completion"
   url "https://github.com/Cj-bc/bpkg-completion/archive/v" + version + ".tar.gz"
