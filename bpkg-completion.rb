@@ -19,6 +19,7 @@ class BpkgCompletion < Formula
       $ source ~/.bash_profile
       Restart your terminal
 EOT
+  end
     
   test do
     system ".", "#{etc}/bash-completion.d/bpkg-completion.bash"
