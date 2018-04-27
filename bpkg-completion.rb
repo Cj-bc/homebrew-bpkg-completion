@@ -12,13 +12,12 @@ class BpkgCompletion < Formula
 #    system "install", "bpkg-completion.bash" "#{etc}/bash-completion.d/"
   end
 
-  def caveats
-    msg <<~EOT
+  def caveats; <<~EOT
       # after installation, you need to reboot your PC.
       # or, just do:
       $ source ~/.bash_profile
       Restart your terminal
-EOT
+  EOT
   end
     
   test do
