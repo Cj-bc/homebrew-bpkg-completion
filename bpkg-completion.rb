@@ -11,6 +11,14 @@ class BpkgCompletion < Formula
     (prefix/"etc"/"bash_completion.d").install "bpkg-completion.bash"
 #    system "install", "bpkg-completion.bash" "#{etc}/bash-completion.d/"
   end
+
+  def caveats
+    msg <<-EOT.undent
+      # after installation, you need to reboot your PC.
+      # or, just do:
+      $ source ~/.bash_profile
+      Restart your terminal
+EOT
     
   test do
     system ".", "#{etc}/bash-completion.d/bpkg-completion.bash"
