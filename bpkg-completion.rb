@@ -13,7 +13,7 @@ class BpkgCompletion < Formula
   end
 
   def caveats
-    msg <<~EOT.undent
+    msg <<~EOT
       # after installation, you need to reboot your PC.
       # or, just do:
       $ source ~/.bash_profile
