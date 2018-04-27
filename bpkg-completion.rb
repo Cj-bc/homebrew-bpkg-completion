@@ -15,3 +15,5 @@ class Bpkgcompletion < Formula
   test do
     system ".", "#{etc}/bash-completion.d/bpkg-completion.bash"
   end
+
+end
